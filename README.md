@@ -1,6 +1,6 @@
 # React + Vite
 
-# https://mydaybook.netlify.app/
+# https://dayforecast.netlify.app/
 
 # u can check it by clicking on this link
 
