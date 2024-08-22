@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.5s ease;
+}
+
+.app {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.5s ease;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.weather-search {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.weather-details p {
+  font-size: 18px;
+  color: #333;
+  margin: 5px 0;
+}
+
+/* Dynamic backgrounds based on weather conditions */
+.app.clear {
+  background-color: #f7d794; /* Sunny */
+}
+
+.app.clouds {
+  background-color: #d1d8e0; /* Cloudy */
+}
+
+.app.rain {
+  background-color: #778beb; /* Rainy */
+}
+
+.app.snow {
+  background-color: #dcdde1; /* Snowy */
+}
+
+.app.thunderstorm {
+  background-color: #4b4b4b; /* Thunderstorm */
+}
+
+.app.drizzle {
+  background-color: #9c88ff; /* Drizzle */
+}
+
+.app.mist {
+  background-color: #95afc0; /* Misty */
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+
+  .search-input,
+  .search-button {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .weather-details p {
+    font-size: 16px;
+  }
+}

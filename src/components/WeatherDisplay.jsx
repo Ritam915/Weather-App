@@ -2,7 +2,7 @@ import React from "react";
 
 const WeatherDisplay = ({ weatherData }) => {
   if (!weatherData) {
-    return <div className="weather-display">No Data Available</div>;
+    return <div className="weather-display">Search city</div>;
   }
 
   const weatherCondition = weatherData.weather[0].main.toLowerCase();

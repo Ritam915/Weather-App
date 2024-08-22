@@ -144,6 +144,34 @@ h1 {
   box-shadow: 0px 4px 15px rgba(102, 166, 255, 0.6);
 }
 
+.app.clear {
+  background-color: #f7d794; /* Sunny */
+}
+
+.app.clouds {
+  background-color: #d1d8e0; /* Cloudy */
+}
+
+.app.rain {
+  background-color: #778beb; /* Rainy */
+}
+
+.app.snow {
+  background-color: #dcdde1; /* Snowy */
+}
+
+.app.thunderstorm {
+  background-color: #4b4b4b; /* Thunderstorm */
+}
+
+.app.drizzle {
+  background-color: #9c88ff; /* Drizzle */
+}
+
+.app.mist {
+  background-color: #95afc0; /* Misty */
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
   .app {
